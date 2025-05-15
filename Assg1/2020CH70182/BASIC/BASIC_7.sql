@@ -1,0 +1,1 @@
+select t1.subject_id, Max(t1.hadm_id) as latest_hadm_id, t2.dod from (hosp.admissions t1 inner join hosp.patients t2 On t1.subject_id=t2.subject_id and t2.dod is not null) group by 1,3;

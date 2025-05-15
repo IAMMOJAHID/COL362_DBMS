@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.PostgreSQLTest" time="1.655" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Sem10\COL362\Assignment\Assg2\a2-tester\a2-tester\target\test-classes;D:\Sem10\COL362\Assignment\Assg2\a2-tester\a2-tester\target\classes;C:\Users\ch720\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar;C:\Users\ch720\.m2\repository\org\checkerframework\checker-qual\3.48.3\checker-qual-3.48.3.jar;C:\Users\ch720\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ch720\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ch720\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ch720\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ch720\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ch720\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\ch720\.m2\repository\org\testcontainers\postgresql\1.19.3\postgresql-1.19.3.jar;C:\Users\ch720\.m2\repository\org\testcontainers\jdbc\1.19.3\jdbc-1.19.3.jar;C:\Users\ch720\.m2\repository\org\testcontainers\database-commons\1.19.3\database-commons-1.19.3.jar;C:\Users\ch720\.m2\repository\org\testcontainers\testcontainers\1.19.3\testcontainers-1.19.3.jar;C:\Users\ch720\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ch720\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ch720\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\ch720\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\ch720\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\ch720\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\ch720\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ch720\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.3.4\docker-java-transport-zerodep-3.3.4.jar;C:\Users\ch720\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\ch720\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ch720\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ch720\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\ch720\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ch720\AppData\Local\Temp\surefire8769341657175143573\surefirebooter-20250219175507149_3.jar C:\Users\ch720\AppData\Local\Temp\surefire8769341657175143573 2025-02-19T17-55-06_678-jvmRun1 surefire-20250219175507149_1tmp surefire_0-20250219175507149_2tmp"/>
+    <property name="surefire.test.class.path" value="D:\Sem10\COL362\Assignment\Assg2\a2-tester\a2-tester\target\test-classes;D:\Sem10\COL362\Assignment\Assg2\a2-tester\a2-tester\target\classes;C:\Users\ch720\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar;C:\Users\ch720\.m2\repository\org\checkerframework\checker-qual\3.48.3\checker-qual-3.48.3.jar;C:\Users\ch720\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\ch720\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ch720\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\ch720\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ch720\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\ch720\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\ch720\.m2\repository\org\testcontainers\postgresql\1.19.3\postgresql-1.19.3.jar;C:\Users\ch720\.m2\repository\org\testcontainers\jdbc\1.19.3\jdbc-1.19.3.jar;C:\Users\ch720\.m2\repository\org\testcontainers\database-commons\1.19.3\database-commons-1.19.3.jar;C:\Users\ch720\.m2\repository\org\testcontainers\testcontainers\1.19.3\testcontainers-1.19.3.jar;C:\Users\ch720\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ch720\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ch720\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\ch720\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\ch720\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\ch720\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\ch720\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\ch720\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.3.4\docker-java-transport-zerodep-3.3.4.jar;C:\Users\ch720\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\ch720\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\ch720\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ch720\.m2\repository\ch\qos\logback\logback-classic\1.2.11\logback-classic-1.2.11.jar;C:\Users\ch720\.m2\repository\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ch720"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="D:\Sem10\COL362\Assignment\Assg2\a2-tester\a2-tester"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ch720\AppData\Local\Temp\surefire8769341657175143573\surefirebooter-20250219175507149_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="ch720"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ch720\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ch720\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="D:\Sem10\COL362\Assignment\Assg2\a2-tester\a2-tester"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\ch720\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ch720\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ffmpeg\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.2.0;C:\Program Files\cudnn\bin;C:\Program Files\cudnn\include;C:\Program Files\cudnn\lib\x64;C:\Users\ch720\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ch720\AppData\Local\Programs\Python\Python39;C:\Users\ch720\AppData\Local\Microsoft\WindowsApps;C:\Users\ch720\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\PostgreSQL\15\bin;C:\Program Files\PostgreSQL\15\lib;C:\Program Files\PuTTY;C:\Program Files\apache-maven-3.9.9\bin;C:\ffmpeg\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2024.2.0;C:\Program Files\cudnn\bin;C:\Program Files\cudnn\include;C:\Program Files\cudnn\lib\x64;C:\Users\ch720\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ch720\AppData\Local\Programs\Python\Python39;C:\Users\ch720\AppData\Local\Microsoft\WindowsApps;C:\Users\ch720\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ch720\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ch720\AppData\Local\Programs\Python\Python39;C:\Program Files\Java\jdk1.8.0_202;C:\Program Files\apache-maven-3.9.9\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testExtras_ExtraRunsNull" classname="com.example.PostgreSQLTest" time="0.041">
+    <system-out><![CDATA[Database created successfully!
+]]></system-out>
+  </testcase>
+  <testcase name="testTeam_RegionNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testBatterScore_RunScoredNull" classname="com.example.PostgreSQLTest" time="0.01"/>
+  <testcase name="testTeam_TeamIdNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testMatch_MatchIdNull" classname="com.example.PostgreSQLTest" time="0.005"/>
+  <testcase name="testAwards_AwardTypeNull" classname="com.example.PostgreSQLTest" time="0.007"/>
+  <testcase name="testPlayerMatch_RoleNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testMatch_MatchDateNull" classname="com.example.PostgreSQLTest" time="0.008"/>
+  <testcase name="testAuction_AuctionIdNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testAuction_IsSoldNull" classname="com.example.PostgreSQLTest" time="0.008"/>
+  <testcase name="testPlayer_PlayerIdNull" classname="com.example.PostgreSQLTest" time="0.002"/>
+  <testcase name="testBalls_BallNumNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testExtras_ExtraTypeNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testSeason_EndDateNull" classname="com.example.PostgreSQLTest" time="0.01"/>
+  <testcase name="testPlayerMatch_IsExtraNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testWickets_KindOutNull" classname="com.example.PostgreSQLTest" time="0.006"/>
+  <testcase name="testPlayer_BattingHandNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testBalls_InningsNumNull" classname="com.example.PostgreSQLTest" time="0"/>
+  <testcase name="testMatch_MatchTypeNull" classname="com.example.PostgreSQLTest" time="0.01"/>
+  <testcase name="testSeason_YearNull" classname="com.example.PostgreSQLTest" time="0"/>
+</testsuite>

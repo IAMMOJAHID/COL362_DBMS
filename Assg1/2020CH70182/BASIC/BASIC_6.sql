@@ -1,0 +1,1 @@
+select subject_id, count(DISTINCT hadm_id) as count from icu.icustays group by 1 order by 2, 1;

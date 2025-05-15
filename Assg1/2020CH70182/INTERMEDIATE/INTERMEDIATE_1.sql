@@ -1,0 +1,1 @@
+select a.subject_id, a.hadm_id, p.dod FROM hosp.admissions a join hosp.patients p ON a.subject_id = p.subject_id WHERE p.dod IS NOT NULL AND a.admittime = ( select MIN(admittime) FROM hosp.admissions WHERE subject_id = a.subject_id) ORDER BY 1;

@@ -1,0 +1,1 @@
+select count(DISTINCT t.subject_id) as count, DATE_PART('year', t.admittime::TIMESTAMP) as year from hosp.admissions t group by 2 order by 1 desc, 2 limit 5;

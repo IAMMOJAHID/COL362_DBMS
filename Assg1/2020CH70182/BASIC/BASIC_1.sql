@@ -1,0 +1,1 @@
+select t.subject_id from hosp.patients t where t.anchor_age > 89 and t.gender='F' order by 1;

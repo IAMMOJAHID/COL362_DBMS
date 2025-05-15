@@ -1,0 +1,1 @@
+select t1.hadm_id, t2.gender, (t1.dischtime::TIMESTAMP - t1.admittime::TIMESTAMP) as duration from hosp.admissions t1 inner join hosp.patients t2 On t1.subject_id=t2.subject_id Where t1.dischtime is not NULL order by 3, 1;

@@ -1,0 +1,1 @@
+select t1.pharmacy_id from hosp.pharmacy t1 where t1.pharmacy_id not in (select t2.pharmacy_id from hosp.prescriptions t2) group by 1 order by 1;

@@ -1,0 +1,1 @@
+select t.enter_provider_id, count(DISTINCT t.medication) as count from hosp.emar t where t.enter_provider_id is not null group by 1 order by 2 desc;

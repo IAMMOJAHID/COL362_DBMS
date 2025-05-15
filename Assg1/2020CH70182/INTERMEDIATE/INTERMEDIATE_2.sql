@@ -1,0 +1,1 @@
+SELECT AVG(dischtime::timestamp - admittime::timestamp) as avg_duration FROM hosp.admissions a join hosp.diagnoses_icd d ON a.hadm_id = d.hadm_id where d.icd_code = '4019' AND d.icd_version = 9 AND a.dischtime IS NOT NULL;

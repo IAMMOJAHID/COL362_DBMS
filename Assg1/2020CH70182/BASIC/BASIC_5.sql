@@ -1,0 +1,1 @@
+select count(DISTINCT t1.hadm_id) as count from hosp.admissions t1 inner join hosp.emar_detail t2 On t1.subject_id=t2.subject_id and t1.marital_status='SINGLE' and t2.reason_for_no_barcode='Barcode Damaged';
